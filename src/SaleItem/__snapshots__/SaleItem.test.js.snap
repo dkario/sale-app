@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SaleItem component matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SaleItem
+    basePrice="60"
+    salePercentage="0.25"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="plant"
+          className="image"
+          src="plant.jpg"
+/>,
+        <p>
+          Buy this plant for only
+           
+          <span
+                    className="base-price"
+          >
+                    $60.00
+          </span>
+           
+          <span
+                    className="sale-price"
+          >
+                    $45.00
+          </span>
+          !
+</p>,
+      ],
+      "className": "sale-item",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "plant",
+          "className": "image",
+          "src": "plant.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Buy this plant for only",
+            " ",
+            <span
+              className="base-price"
+>
+              $60.00
+</span>,
+            " ",
+            <span
+              className="sale-price"
+>
+              $45.00
+</span>,
+            "!",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Buy this plant for only",
+          " ",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "$60.00",
+              "className": "base-price",
+            },
+            "ref": null,
+            "rendered": "$60.00",
+            "type": "span",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "$45.00",
+              "className": "sale-price",
+            },
+            "ref": null,
+            "rendered": "$45.00",
+            "type": "span",
+          },
+          "!",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="plant"
+            className="image"
+            src="plant.jpg"
+/>,
+          <p>
+            Buy this plant for only
+             
+            <span
+                        className="base-price"
+            >
+                        $60.00
+            </span>
+             
+            <span
+                        className="sale-price"
+            >
+                        $45.00
+            </span>
+            !
+</p>,
+        ],
+        "className": "sale-item",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "plant",
+            "className": "image",
+            "src": "plant.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Buy this plant for only",
+              " ",
+              <span
+                className="base-price"
+>
+                $60.00
+</span>,
+              " ",
+              <span
+                className="sale-price"
+>
+                $45.00
+</span>,
+              "!",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Buy this plant for only",
+            " ",
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "$60.00",
+                "className": "base-price",
+              },
+              "ref": null,
+              "rendered": "$60.00",
+              "type": "span",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "$45.00",
+                "className": "sale-price",
+              },
+              "ref": null,
+              "rendered": "$45.00",
+              "type": "span",
+            },
+            "!",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

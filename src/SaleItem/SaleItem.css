@@ -1,0 +1,17 @@
+.sale-item {
+    margin: 50px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+}
+
+.base-price {
+    text-decoration: line-through;
+}
+
+.sale-price {
+    font-weight: bolder;
+    color: red;
+}
